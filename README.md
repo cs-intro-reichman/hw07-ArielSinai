@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OL_G6x6t)
 # Homework 7 Submission
 
 Welcome to Homework 7! This repository contains the skeleton code for your image processing assignment. Please follow the instructions below to complete and submit your assignment.
@@ -6,7 +7,7 @@ Welcome to Homework 7! This repository contains the skeleton code for your image
 
 1. Before starting, make sure to read the full description and instructions for this assignment. You can find the detailed guidelines in a supported PDF file available on Moodle.
 
-## Cloning the Repository
+## Cloning
 1. Clone this repository to your local machine. Use the GitHub Classroom link provided to you.
 2. For a detailed guide on how to clone a repository, watch the instructional video available on Moodle.
 
