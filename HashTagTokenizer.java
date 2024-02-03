@@ -3,11 +3,8 @@
 public class HashTagTokenizer {
 
 	public static void main(String[] args) {
-		
 		String hashTag = args[0];
-
 		String []dictionary = readDictionary("dictionary.txt");
-
 		breakHashTag(hashTag, dictionary);
 	}
 
@@ -18,7 +15,7 @@ public class HashTagTokenizer {
 
 		// Your code here
 		for (int i=0; i<3000; i++) {
-			dictionary[i] = in.readString();
+			dictionary[i] = in.readLine();
 		}
 
 		return dictionary;
@@ -40,19 +37,19 @@ public class HashTagTokenizer {
         if (hashtag.isEmpty()) {
             return;
         }
-		
-		hashtag = hashtag.toLowerCase();
+ 
         int N = hashtag.length();
-		
+
+		hashtag = hashtag.toLowerCase();
+
         for (int i = 1; i <= N; i++) {
-			String prefix = hashtag.substring(0,i);
+			String prefix = hashtag.substring(0, i);
 			if (existInDictionary(prefix, dictionary)) {
 				System.out.println(prefix);
-				String sufix = hashtag.substring(i);
-				breakHashTag(sufix, dictionary);
+				breakHashTag(hashtag.substring(i), dictionary);
 				return;
 			}
         }
-
     }
+
 }

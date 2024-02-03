@@ -7,7 +7,7 @@ Welcome to Homework 7! This repository contains the skeleton code for your image
 
 1. Before starting, make sure to read the full description and instructions for this assignment. You can find the detailed guidelines in a supported PDF file available on Moodle.
 
-## Cloning the Repository
+## Cloning
 1. Clone this repository to your local machine. Use the GitHub Classroom link provided to you.
 2. For a detailed guide on how to clone a repository, watch the instructional video available on Moodle.
 
